@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 
 public class MainPage extends BasePage {
 
-    public String url = "https://en.wikipedia.org/wiki/Main_Page";
-    public String title = "Wikipedia, the free encyclopedia";
+    public String url = "https://test.wikipedia.org/wiki/Main_Page";
+    public String title = "Wikipedia";
     public By main_logo = By.xpath("//span[@class='mw-logo-container skin-invert']");
     public By search_box = By.xpath("//input[@title='Search Wikipedia");
     public By search_button = By.xpath("//button[normalize-space()='Search']");

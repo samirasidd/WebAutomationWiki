@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ASUS/IdeaProjects/WebAutomationWiki/src/main/java/testcases">
+        <classes>
+            <class name="testcases.TestLoginPage">
+                <methods>
+                    <include name="TestUserCanLoginWithValidCredentials"/>
+                    <exclude name="TestUserShouldNotLoginWithInvalidPassword"/>
+                    <exclude name="TestUserShouldNotLoginWithInvalidUsername"/>
+                    <exclude name="TestUserShouldNotLoginWithInvalidCredentials"/>
+                    <include name="TestUserShouldNotLoginWithInvalidUserCredentials"/>
+                </methods>
+            </class>
+            <class name="testcases.TestMainPage">
+                <methods>
+                    <include name="TestMainPageTitle"/>
+                    <include name="TestLoginButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
