@@ -1,4 +1,4 @@
-# 🧪 Wikipedia Web Automation Practice
+# Wikipedia Web Automation Practice
 
 Basic web automation practice using Selenium on Wikipedia's Home and Login pages.
 
