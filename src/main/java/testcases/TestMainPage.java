@@ -19,8 +19,8 @@ public class TestMainPage extends DriverSetup {
     @Test
     public void TestLoginButton() {
         mainPage.loadAPage(mainPage.url);
-        Assert.assertEquals(mainPage.getElementText(mainPage.login), "Log in");
-
+        Assert.assertEquals(mainPage.getElementText(mainPage.login_button), "Log in");
+        Assert.assertTrue(mainPage.getElement(mainPage.login_button).isEnabled());
     }
 
 }
