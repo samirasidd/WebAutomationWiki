@@ -6,9 +6,8 @@
             <class name="testcases.TestLoginPage">
                 <methods>
                     <include name="TestUserCanLoginWithValidCredentials"/>
-                    <exclude name="TestUserShouldNotLoginWithInvalidPassword"/>
-                    <exclude name="TestUserShouldNotLoginWithInvalidUsername"/>
-                    <exclude name="TestUserShouldNotLoginWithInvalidCredentials"/>
+                    <include name="TestUserShouldNotLoginWithInvalidPassword"/>
+                    <include name="TestUserShouldNotLoginWithInvalidUsername"/>
                     <include name="TestUserShouldNotLoginWithInvalidUserCredentials"/>
                 </methods>
             </class>
